@@ -1,0 +1,6 @@
+streamlit
+PIL
+easyocr
+pandas
+re
+rapidfuzz
