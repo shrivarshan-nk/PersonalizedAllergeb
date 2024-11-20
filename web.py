@@ -14,8 +14,8 @@ reader = easyocr.Reader(['en'])
 @st.cache_data
 def load_data():
     # Update the file paths to the locations of your datasets
-    allergen_file = "C:/Users/shriv/PersonalisedAllergen/food1.xlsx"  # Replace with your file path
-    chemical_file = "C:/Users/shriv/PersonalisedAllergen/food.xlsx"  # Replace with your file path
+    allergen_file = "food1.xlsx"  # Replace with your file path
+    chemical_file = "food.xlsx"  # Replace with your file path
     
     allergens = pd.read_excel(allergen_file).to_dict(orient='records')
     chemicals = pd.read_excel(chemical_file).to_dict(orient='records')
